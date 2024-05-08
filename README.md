@@ -14,6 +14,22 @@ The goal of this course is to give you a brief introduction to GitHub. We’ll a
 4. When you have git ready and security keys set up, just write `git clone <your-repository-link>` into your CLI
 5. When making changes, you mainly add, commit and push (`git add .`, `git commit -m "<commit-message>"` and `git push`)
 
+# Autograding Example: Python
+This example project is written in Python, and tested with pytest.
+
+### The assignment
+The tests are failing right now because the method isn't outputting the correct string. Fixing this up will make the tests green.
+
+### Setup command
+`sudo -H pip3 install pytest`
+
+### Run command
+`pytest`
+- then make fixes to according source code
+
+### Notes
+- pip's install path is not included in the PATH var by default, so without installing via `sudo -H`, pytest would be unaccessible.
+
 ## :octocat: Git and GitHub
 
 Git is a **distributed Version Control System (VCS)**, which means it is a useful tool for easily tracking changes to your code, collaborating, and sharing. With Git you can track the changes you make to your project so you always have a record of what you’ve worked on and can easily revert back to an older version if need be. It also makes working with others easier—groups of people can work together on the same project and merge their changes into one final source!
@@ -104,26 +120,9 @@ You can check out the GitHub Explore website [at github.com/explore](https://git
 * Create a new markdown file in this repository. Let them know what you learned and what you are still confused about! Experiment with different styles!
 * Create your profile README. Let the world know a little bit more about you! What are you interested in learning? What are you working on? What's your favorite hobby? Learn more about creating your profile README in the document, ["Managing Your Profile README"](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).
 * Go to your user dashboard and create a new repository. Experiment with the features within that repository to familiarize yourself with them. 
-* [Let us know what you liked or didn’t like about the content of this course](https://support.github.com/contact/education). What would you like to see more of? What would be interesting or helpful to your learning journey? 
+* [Let us know what you liked or didn’t like about the content of this course](https://support.github.com/contact/education). What would you like to see more of? What would be interesting or helpful to your learning journey?
 
 ---
-# Autograding Example: Python
-This example project is written in Python, and tested with pytest.
-
-### The assignment
-The tests are failing right now because the method isn't outputting the correct string. Fixing this up will make the tests green.
-
-### Setup command
-`sudo -H pip3 install pytest`
-
-### Run command
-`pytest`
-- then make fixes to according source code
-
-### Notes
-- pip's install path is not included in the PATH var by default, so without installing via `sudo -H`, pytest would be unaccessible.
----
-
 - ## 📚  Resources 
 * [A short video explaining what GitHub is](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be) 
 * [Git and GitHub learning resources](https://docs.github.com/en/github/getting-started-with-github/git-and-github-learning-resources) 
